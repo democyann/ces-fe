@@ -1,0 +1,11 @@
+body {
+	font: 14px/1.4 Helvetica, serif;
+}
+
+body, ul, h1, h2, h3, h4 {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ces-fe",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tooling watch",
+    "build": "tooling build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cefamily/ces-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cefamily/ces-fe/issues"
+  },
+  "homepage": "https://github.com/cefamily/ces-fe#readme",
+  "devDependencies": {
+    "vue-router": "^0.7.11"
+  },
+  "tooling": {
+    "index": {
+      "title": "CES"
+    }
+  }
+}
