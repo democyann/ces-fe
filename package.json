@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tooling watch",
-    "build": "tooling build"
+    "dev": "vbuild --dev -c",
+    "build": "vbuild -c"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,8 @@
     "url": "https://github.com/cefamily/ces-fe/issues"
   },
   "homepage": "https://github.com/cefamily/ces-fe#readme",
-  "devDependencies": {
-    "vue-router": "^0.7.11"
-  },
-  "tooling": {
-    "index": {
-      "title": "CES"
-    }
+  "dependencies": {
+    "axios": "^0.11.0",
+    "vue-router": "^0.7.13"
   }
 }
